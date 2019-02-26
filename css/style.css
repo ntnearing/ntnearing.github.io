@@ -45,6 +45,54 @@ a.hire-me:hover {
 	text-decoration:none;
 	background:#42007F;
 }
+
+.social {
+	text-align:center;
+	padding-bottom:80px;
+}
+ul.social-icons {
+	margin:20px 0;
+}
+ul.social-icons li {
+	list-style:none;
+	display:inline-block;
+	margin:10px;
+}
+ul.social-icons li:first-child {
+	margin-left:0;
+}
+ul.social-icons li a {
+	opacity:0.8;
+}
+ul.social-icons li a:hover {
+	opacity:1;
+}
+
+
+
+/***** Resume container *****/
+.resume h3 {
+	margin:60px 0;
+}
+.resume .btn-center {
+	text-align:center;
+}
+.footer {
+	background:#355267;
+	position: fixed;
+	width: 100%;
+	bottom:0;
+}
+.footer p {
+	margin:20px 0;
+}
+.footer p a {
+	color:#fff;
+	text-decoration:none;
+}
+.footer p a:hover {
+	color:#39d084;
+}
     
 /***** Professional links *****/
 .fa {
